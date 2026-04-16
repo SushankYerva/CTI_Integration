@@ -6,6 +6,8 @@ This project demonstrates the deployment and integration of an end-to-end Cyber 
 
 The focus of this project is on **deployment, connector integration, data ingestion, and validation of CTI workflows**.
 
+<img src="/docs/screenshots/OpenCTI_Dashboard.png">
+
 ## Objectives
 
 * Deploy OpenCTI on an Ubuntu VM using Docker Compose
@@ -58,15 +60,11 @@ cti-integration-pipeline/
 ├── .env.example
 ├── docker-compose.yml
 ├── docs/
-│   ├── architecture.md
-│   ├── deployment-steps.md
-│   ├── connector-setup.md
-│   ├── data-flow.md
-│   ├── troubleshooting.md
-│   └── screenshots/
-├── config/
-├── scripts/
-└── assets/
+    ├── architecture.md
+    ├── deployment-steps.md
+    ├── connector-setup.md
+    ├── troubleshooting.md
+    └── screenshots/
 ```
 ## Screenshots
 
