@@ -130,7 +130,7 @@ Ensure all services are running:
 * minio
 * connectors
 
-
+<img src="/docs/screenshots/Docker_ps.png">
 
 ## 8. Access OpenCTI
 
@@ -155,7 +155,7 @@ In OpenCTI UI:
   * Splunk connector is active
   * No error states
 
-
+<img src="/docs/screenshots/Data_Ingestion.png">
 
 ## 10. Validate AlienVault OTX Ingestion
 
