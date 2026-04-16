@@ -75,6 +75,7 @@ docker compose up -d
 * Check the **AlienVault OTX** connector status. It should show as active and ingesting data.
 * Confirm that the AlienVault threat intelligence data (indicators, observables, and reports) has been ingested into OpenCTI.
 
+<img src="/docs/screenshots/AlienVault_Connector.png">
 
 ## 2. Splunk Connector Configuration
 
@@ -130,7 +131,7 @@ Example configuration for the Splunk connector:
 
 Under settings select Lookups and create a new lookup definition as shown below.
 
-Img>>>
+<img src="/docs/screenshots/Lookup.png">
 
 
 ### Step 5: Restart Docker Containers
@@ -151,6 +152,8 @@ docker compose up -d
 ```
 
 * Check for relevant CTI data, including indicators, observables, and reports that have been ingested from OpenCTI.
+
+<img src="/docs/screenshots/Splunk_Search_Query.png">
 
 ---
 
